@@ -7,7 +7,7 @@ using namespace std;
 
 int a_number = 1234;
 int pin = 123;
-double balance = 25000;
+double balance = 25000;  // balance 
 
 void e_balance() {
     cout << "Your balance is: " << balance << endl;
@@ -220,4 +220,5 @@ int main() {
         cout << "Invalid option. Please try again." << endl;
     return 0;
 }
+
 
